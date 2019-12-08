@@ -1,6 +1,6 @@
 # works-with-home-assistant
 
-Stuff that works with Home Assistant.
+Stuff that works with Home Assistant with minimal aggravation. If you have to reflash the device, please add that to the description.
 
 ## Hubs
 
