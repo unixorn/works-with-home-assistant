@@ -3,11 +3,17 @@
 
 # Description
 
+Notes suggestions:
+
+* If the device you're adding in your PR won't work in a local-only mode, please say so in the **Notes** column of your entry. 
+* If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line.
+* If it tries to phone home - note that too.
+
 # Type of changes
 
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
-- [ ] A link to an external resource like a blog post
+- [ ] A link to an external resource like a blog post, video or tutorial
 - [ ] Add/remove a device
 - [ ] Text cleanups/typo fixes
 
