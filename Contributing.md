@@ -7,7 +7,9 @@ First and foremost, thanks for the help, I appreciate all of the contributions, 
 ### General
 
 * Entries should be clear, concise, and non-promotional.
+* Please only make entries for devices you have _personally_ used. You can't say something works well if you haven't worked with it.
 * Please include a link to purchase each addition to the list. Don't include referral codes in the links, but also please use smile.amazon.com for Amazon links so people can contribute to their preferred charities when they buy.
+* Amazon links should be in the form https://smile.amazon.com/gp/product/XYZZY/
 * If the item needs to be reflashed with Tasmota, ESPHome or something else before it is usable with Home Assistant, make sure to put that in the **Notes** column.
 * For consistency in entries, please capitalize Tasmota and ESPHome.
 * For consistency, please spell Z-Wave instead of ZWave in all entry descriptions.
