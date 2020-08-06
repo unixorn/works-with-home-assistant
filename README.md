@@ -34,8 +34,9 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. |
+| [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. ||
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
+| [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
 | [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | Small cheap smart plug with power switch. Claims to monitor the energy consumption of the plugged-in device, but I've had erratic results on monitoring. ||
 
 ## Z-Wave
