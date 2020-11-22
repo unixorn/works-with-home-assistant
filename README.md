@@ -11,11 +11,15 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Introduction
+
 This is a list of stuff that works with Home Assistant with minimal aggravation.
 
-If you have to reflash the device, please add that to the **Notes** column. If you need to add a plugin to HAss before it can be used, add that to **Notes** too. If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and aren't vulnerable to some jackass hacking the company's servers.
+If you have to reflash the device, please add that to the **Notes** column. If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too. If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
 
 Things to think about before picking a platform - read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
+
+A note on dimmers: Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all zwave or zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
 
 ## Hubs
 
@@ -40,8 +44,6 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | Small cheap smart plug with power switch. Claims to monitor the energy consumption of the plugged-in device, but monitoring doesn't work. ||
 
 ## Z-Wave
-
-A note on dimmers: Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all zwave dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
