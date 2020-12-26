@@ -11,6 +11,13 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Status
+
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fworks-with-home-assistant%2Fbadge&style=flat)](https://actions-badge.atrox.dev/unixorn/works-with-home-assistant/goto)
+[![GitHub stars](https://img.shields.io/github/stars/unixorn/works-with-home-assistant.svg)](https://github.com/unixorn/works-with-home-assistant/stargazers)
+[![Issue Count](https://codeclimate.com/github/unixorn/works-with-home-assistant/badges/issue_count.svg)](https://codeclimate.com/github/unixorn/works-with-home-assistant)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/works-with-home-assistant/master.svg)](https://github.com/unixorn/works-with-home-assistant)
+
 ## Introduction
 
 This is a list of stuff that works with Home Assistant with minimal aggravation.
