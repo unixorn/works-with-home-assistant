@@ -4,6 +4,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Status](#status)
+- [Introduction](#introduction)
 - [Hubs](#hubs)
 - [Wifi devices](#wifi-devices)
 - [Zigbee](#zigbee)
