@@ -15,7 +15,7 @@
 
 ## Status
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fworks-with-home-assistant%2Fbadge&style=flat)](https://actions-badge.atrox.dev/unixorn/works-with-home-assistant/goto)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fworks-with-home-assistant%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/unixorn/works-with-home-assistant/goto?ref=main)
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/works-with-home-assistant.svg)](https://github.com/unixorn/works-with-home-assistant/stargazers)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/works-with-home-assistant/main.svg)](https://github.com/unixorn/works-with-home-assistant)
 
