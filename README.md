@@ -27,7 +27,7 @@ If you have to reflash the device, please add that to the **Notes** column. If y
 
 Things to think about before picking a platform - read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
 
-A note on dimmers: Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all zwave or zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
+A note on dimmers: Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all Z-Wave or Zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
 
 ## Hubs
 
