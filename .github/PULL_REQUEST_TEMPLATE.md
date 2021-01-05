@@ -5,9 +5,12 @@
 
 Notes suggestions:
 
-* If the device you're adding in your PR won't work in a local-only mode, please say so in the **Notes** column of your entry.
-* If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line, or even if your internet is just having an outage.
-* If it tries to phone home - note that too.
+- If the device you're adding in your PR won't work in a local-only mode, please say so in the **Notes** column of your entry.
+- If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line, or even if your internet is just having an outage.
+- If it tries to phone home - note that too.
+- If you have to reflash a device to get it working with Home Assistant, please add that to the **Notes** column.
+- If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
+- If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
 
 # Type of changes
 
@@ -24,12 +27,12 @@ Notes suggestions:
 # Checklist:
 
 <!---
-Go over all the following points, and put an `x` in all the boxes that apply.
-
-You only need to check the box for completions/plugins/themes if you added something in those categories
+Go over all the following points, and put an `x` in all the boxes that apply. Make them look like [x] so that GitHub's markdown renderer renders them properly.
 -->
 
 - [ ] I have confirmed that the link(s) in my PR are valid.
+- [ ] Any links to Amazon are to smile.amazon.com so that people can donate to their designated charity when they buy.
+- [ ] Any links to any online vendors do _not_ include referral codes.
 - [ ] My entries are single lines and are in the appropriate (Hub, Zigbee, Z-Wave, or WIFI) section, and in alphabetical order in their section.
 - [ ] I have read the [Contributing](https://github.com/unixorn/works-with-home-assistant/blob/master/Contributing.md) document.
 - [ ] All new and existing tests passed.
