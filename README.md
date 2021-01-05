@@ -46,7 +46,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [Aqara Walter Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Manual was unclear on how to put it in pairing mode - press the water droplet icon until the hidden light flashes three times, then let go.<p>These also ship ready to go - no messing with the battery, just press the button and add it to your zigbee mesh. |
+| [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Manual was unclear on how to put it in pairing mode - press the water droplet icon until the hidden light flashes three times, then let go.<p>These also ship ready to go - no messing with the battery, just press the button and add it to your zigbee mesh. |
 | [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. ||
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
 | [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
