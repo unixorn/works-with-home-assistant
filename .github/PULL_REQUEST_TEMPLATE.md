@@ -3,9 +3,9 @@
 
 # Description
 
+<!---
 Notes suggestions:
 
-<!---
 - It is ok to add a link to a device that doesn't work - just add it in the non-working devices section to warn off other users from buying it.
 - If the device you're adding in your PR won't work in a local-only mode, please say so in the **Notes** column of your entry.
 - If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line, or even if your internet is just having an outage.
