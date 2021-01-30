@@ -29,9 +29,17 @@ If you need to add a plugin to Home Assistant before it can be used, add that to
 
 If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
 
-Things to think about before picking a platform - read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
+## Stuff that _doesn't_ work
 
-A note on dimmers: Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all Z-Wave or Zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
+It's ok to add entries for things that didn't work, but be very clear in the notes field that it didn't work & why it didn't work so people can be warned and not waste money on devices which won't work with HA.
+
+## Things to think about before picking a platform
+
+Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
+
+## A note on dimmers
+
+Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all Z-Wave or Zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
 
 ## Hubs
 
@@ -69,3 +77,10 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [Leviton DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U) | Dimmer - 600 Watt incandescent or 300W LED or CFL. Requires a neutral wire. | Periodically (roughly every three to six months) I've run into issues where it locks up with the lights stuck on, but if you trigger the airgap functionality (pull the dimmer lever gently till it clicks and the light on the switch goes out, wait five seconds and push it back into place) it reboots and starts working again. |
 | [Monoprice Z-Wave Plus Smart Plug](https://www.monoprice.com/product?p_id=27481) | Smart Plug | A good lower-priced alternative to the Aeotec Smart Outlet. Monitors power usage and voltage. Extremely easy to pair with Home Assistant. |
 | [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40](https://smile.amazon.com/dp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. |
+
+# Non-working devices
+
+This section is for things that you've tried and did not get to work with HA.
+
+| Name   | Description                                      | Notes           |
+| ------ | ------------------------------------------------ | --------------- |

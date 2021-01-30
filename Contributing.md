@@ -2,6 +2,8 @@
 
 First and foremost, thanks for the help, I appreciate all of the contributions, and the list wouldn't be nearly as complete without them. You may add to the list by submitting a pull request or adding a link in an issue.
 
+Also, please feel free to add entries for things that _don't_ work - just be clear why they didn't work in the notes. We want to warn fellow users off before they buy something crappy.
+
 ## Entry Guidelines
 
 ### General
@@ -12,7 +14,7 @@ First and foremost, thanks for the help, I appreciate all of the contributions, 
 - Amazon links should be in the form https://smile.amazon.com/gp/product/XYZZY/
 - If the item needs to be reflashed with Tasmota, ESPHome or something else before it is usable with Home Assistant, make sure to put that in the **Notes** column.
 - If the device you're adding won't work in a local-only mode, please say so in the **Notes** column of your entry.
-- If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line.
+- If it requires a remote service, definitely note that - A lot of people prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line.
 - If it tries to phone home - note that too.
 - For consistency in entries, please capitalize Tasmota and ESPHome.
 - For consistency, please spell Z-Wave with a dash instead of ZWave.
