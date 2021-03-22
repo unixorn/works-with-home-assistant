@@ -52,6 +52,7 @@ It's ok to add entries for things that didn't work, but be very clear in the not
 If items here need reflashing to work with Home Assistant, please state that in the **Notes** column.
 
 | Name   | Description                                      | Notes           |
+| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. Completely configurable through it's web interface. In addition to being usable with Blynk and IFTTT, it also has a dedicated cross-platform app, and more interestingly, a well described REST api and can send MQTT messages for ingestion by Home Assistant. And the firmware is on Github, if you want to modify it. |
 | ------ | ------------------------------------------------ | --------------- |
 
 ## Zigbee
