@@ -72,15 +72,15 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | ------ | ------------------------------------------------ | --------------- |
 | [Aeotec Range Extender 6, Z-Wave Plus repeater](https://smile.amazon.com/gp/product/B01M6CKJXC) | Range extender for Z-Wave. | While it works, it's probably more useful to just buy a Z-Wave smart plug than to get a dedicated range extender. |
 | [Aeotec Smart Outlet](https://smile.amazon.com/gp/product/B07PJNL5DB/) | 15 Amp. Monitors electricity usage as well as controlling a device. ||
-| [Dome Leak Sensor](https://smile.amazon.com/gp/product/dp/B01LXR0B8Q/) | Water leak sensor. Reports via Z-Wave when water is detected and also has an audible alarm. | I like that it comes with a four foot sensor probe so you can use it in a sump or other awkward location. |
-| [GE Enbrighten Plug in Z-Wave Smart Switch](https://smile.amazon.com/dp/B004AMB3CI/) | Plug-in Single Outlet with button. ||
+| [Dome Leak Sensor](https://smile.amazon.com/gp/product/B01LXR0B8Q/) | Water leak sensor. Reports via Z-Wave when water is detected and also has an audible alarm. | I like that it comes with a four foot sensor probe so you can use it in a sump or other awkward location. |
+| [GE Enbrighten Plug in Z-Wave Smart Switch](https://smile.amazon.com/gp/product/B004AMB3CI/) | Plug-in Single Outlet with button. ||
 | [GE Enbrighten Z-Wave Plus Smart Plug](https://smile.amazon.com/gp/product/B06W9NWFM3) | Outdoor rated, also works as a range extender. ||
 | [GE/Jasco Decora Smart Switch](https://smile.amazon.com/gp/product/B01M1AHC3R/) | Wall Switch. 3 Way compatible.| Requires an add-on remote switch to work with 3 way. Supports up to four add-on switches. |
-| [GE/Jasco Standard Smart Switch](https://smile.amazon.com/dp/B07X6JW72G/) | Wall Switch. 3 Way compatible.| Requires an add-on remote switch to work with 3 way. Supports up to four add-on switches. |
+| [GE/Jasco Standard Smart Switch](https://smile.amazon.com/gp/product/B07X6JW72G/) | Wall Switch. 3 Way compatible.| Requires an add-on remote switch to work with 3 way. Supports up to four add-on switches. |
 | [Leviton DD00R-DLZ 120VAC 60 Hz Decora Digital/Decora Smart Matching Dimmer Remote](https://smile.amazon.com/gp/product/B01AFU1KOY) | Remote in-wall switch for the [DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U). ||
 | [Leviton DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U) | Dimmer - 600 Watt incandescent or 300W LED or CFL. Requires a neutral wire. | Periodically (roughly every three to six months) I've run into issues where it locks up with the lights stuck on, but if you trigger the airgap functionality (pull the dimmer lever gently till it clicks and the light on the switch goes out, wait five seconds and push it back into place) it reboots and starts working again. |
 | [Monoprice Z-Wave Plus Smart Plug](https://www.monoprice.com/product?p_id=27481) | Smart Plug | A good lower-priced alternative to the Aeotec Smart Outlet. Monitors power usage and voltage. Extremely easy to pair with Home Assistant. |
-| [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40](https://smile.amazon.com/dp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. |
+| [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40](https://smile.amazon.com/gp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. |
 
 ## Non-working devices
 
