@@ -38,9 +38,9 @@ Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/
 
 Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all Z-Wave or Zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
 
-### Stuff that _doesn't_ work
+### Please list stuff that _doesn't_ work, too
 
-It's ok to add entries for things that didn't work, but be very clear in the notes field that it didn't work & why it didn't work so people can be warned and not waste money on devices which won't work with HA.
+It's ok to add entries for things that didn't work, but be very clear in the notes field that what didn't work so people can be warned off and not waste money on devices which won't work with HA.
 ## Hubs
 
 | Name   | Description                                      | Notes           |
@@ -59,7 +59,6 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA. Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it. At least it is cheap. <p>Edit: After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems. |
 | [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>These also ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. <p>Edit: After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.  |
 | [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. ||
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
@@ -86,7 +85,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [Leviton DD00R-DLZ 120VAC 60 Hz Decora Digital/Decora Smart Matching Dimmer Remote](https://smile.amazon.com/gp/product/B01AFU1KOY) | Remote in-wall switch for the [DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U). ||
 | [Leviton DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U) | Dimmer - 600 Watt incandescent or 300W LED or CFL. Requires a neutral wire. | Periodically (roughly every three to six months) I've run into issues where it locks up with the lights stuck on, but if you trigger the airgap functionality (pull the dimmer lever gently till it clicks and the light on the switch goes out, wait five seconds and push it back into place) it reboots and starts working again. |
 | [Monoprice Z-Wave Plus Smart Plug](https://www.monoprice.com/product?p_id=27481) | Smart Plug | A good lower-priced alternative to the Aeotec Smart Outlet. Monitors power usage and voltage. Extremely easy to pair with Home Assistant. |
-| [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40 V2.0](https://smile.amazon.com/gp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. Motion reports without timeout since last report. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. |
+| [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40 V2.0](https://smile.amazon.com/gp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. Motion reports without timeout since last report. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. BunnyHalberd has an [example configuration](https://github.com/bunnyhalberd/ha-config/blob/main/binary_sensors.yaml). |
 
 ## Non-working devices
 
@@ -94,3 +93,4 @@ This section is for things that you've tried and did not get to work with HA.
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
+| [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA.<p> Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it.<p>Even when I did manage to add it, it kept falling off of the Zigbee mesh, even though other devices within 10 feet of it are stable. At least it was cheap. |
