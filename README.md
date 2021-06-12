@@ -24,11 +24,13 @@
 
 This is a list of devices that work with Home Assistant with minimal aggravation.
 
-If you have to reflash a device, please add that to the **Notes** column.
+If you have to reflash a device to use it with HA, please add that to the **Notes** column.
 
 If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
 
 If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
+
+If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column.
 
 ### Things to think about before picking a platform
 
@@ -53,13 +55,12 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. Completely configurable through it's web interface. In addition to being usable with Blynk and IFTTT, it also has a dedicated cross-platform app, and more interestingly, a well described REST api and can send MQTT messages for ingestion by Home Assistant. And the firmware is on Github, if you want to modify it. |
+| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through it's web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and recieve MQTT messages for ingestion by Home Assistant</ul><ul>Firmware source code is on Github, if you want to modify it.</ul><ul>Has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
 
 ## Zigbee
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>These also ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. <p>Edit: After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.  |
 | [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. ||
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
 | [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
@@ -94,3 +95,4 @@ This section is for things that you've tried and did not get to work with HA.
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
 | [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA.<p> Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it.<p>Even when I did manage to add it, it kept falling off of the Zigbee mesh, even though other devices within 10 feet of it are stable. At least it was cheap. |
+| [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Minuses - <p>The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.<p>Pluses - <p>These ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. |
