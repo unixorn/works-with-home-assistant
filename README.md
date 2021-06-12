@@ -24,11 +24,13 @@
 
 This is a list of devices that work with Home Assistant with minimal aggravation.
 
-If you have to reflash a device, please add that to the **Notes** column.
+If you have to reflash a device to use it with HA, please add that to the **Notes** column.
 
 If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
 
 If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
+
+If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column.
 
 ### Things to think about before picking a platform
 
@@ -53,7 +55,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. Completely configurable through it's web interface. In addition to being usable with Blynk and IFTTT, it also has a dedicated cross-platform app, and more interestingly, a well described REST api and can send MQTT messages for ingestion by Home Assistant. And the firmware is on Github, if you want to modify it. |
+| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through it's web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and recieve MQTT messages for ingestion by Home Assistant</ul><ul>Firmware source code is on Github, if you want to modify it.</ul></li> |
 
 ## Zigbee
 
