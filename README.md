@@ -4,14 +4,15 @@
 
 - [works-with-home-assistant](#works-with-home-assistant)
   - [Introduction](#introduction)
-    - [Things to think about before picking a platform](#things-to-think-about-before-picking-a-platform)
+    - [Things to think about before choosing between WiFi, Zigbee and Z-Wave](#things-to-think-about-before-choosing-between-wifi-zigbee-and-z-wave)
     - [A note on dimmers](#a-note-on-dimmers)
-    - [Stuff that _doesn't_ work](#stuff-that-_doesnt_-work)
+    - [Please list stuff that _doesn't_ work, too](#please-list-stuff-that-_doesnt_-work-too)
   - [Hubs](#hubs)
   - [Wifi devices](#wifi-devices)
   - [Zigbee](#zigbee)
   - [Z-Wave](#z-wave)
   - [Non-working devices](#non-working-devices)
+  - [Other tools](#other-tools)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 # works-with-home-assistant
@@ -32,7 +33,7 @@ If it requires the devices connect to an internet server, even just for initial 
 
 If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column.
 
-### Things to think about before picking a platform
+### Things to think about before choosing between WiFi, Zigbee and Z-Wave
 
 Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
 
@@ -42,7 +43,8 @@ Lutron holds a patent for sending status back to hubs on their RadioRA2 system. 
 
 ### Please list stuff that _doesn't_ work, too
 
-It's ok to add entries for things that didn't work, but be very clear in the notes field that what didn't work so people can be warned off and not waste money on devices which won't work with HA.
+I encourage you to add entries for things that don't work, but try to be very clear in the notes field what part didn't work so people can be warned off and not waste money on devices which won't work with HA.
+
 ## Hubs
 
 | Name   | Description                                      | Notes           |
@@ -55,7 +57,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through it's web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>Firmware source code is on Github, if you want to modify it.</ul><ul>Has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
+| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through it's web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>The firmware source code is on Github, if you want to audit or modify it.</ul><ul>Also has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
 
 ## Zigbee
 
@@ -71,11 +73,11 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
 | [Aeotec Range Extender 6, Z-Wave Plus repeater](https://smile.amazon.com/gp/product/B01M6CKJXC) | Range extender for Z-Wave. | While it works, it's probably more useful to just buy a Z-Wave smart plug than to get a dedicated range extender. |
-| [Aeotec Door/Window Sensor 6](https://smile.amazon.com/gp/product/B01E0OMQR6/) | Lower profile door/window open/close sensor. | Aeon Labs ZW112 sold by Aeotec. No longer available, but the smaller depth works really nicely for a clean look, if you can find it. Works well, with a multi-color LED on the back, which you can see flash in the dark when the door opens/closes. Supports some configuration. Battery is built-in and charges via USB. Test magnet location before installing. Home Assistant requires that the reporting type is changed from Basic Set to Binary Report, in the device configuration. |
+| [Aeotec Door/Window Sensor 6](https://smile.amazon.com/gp/product/B01E0OMQR6/) | Lower profile door/window open/close sensor. | Aeon Labs ZW112 sold by Aeotec. No longer available, but the smaller depth works really nicely for a clean look, if you can find it. Works well, with a multi-color LED on the back, which you can see flash in the dark when the door opens/closes. Supports some configuration. Battery is built-in and charges via USB. Test magnet location before installing. Home Assistant requires that the reporting type is changed from `Basic Set` to `Binary Report` in the device configuration. |
 | [Aeotec Smart Outlet](https://smile.amazon.com/gp/product/B07PJNL5DB/) | 15 Amp. Monitors electricity usage as well as controlling a device. ||
 | [Dome Leak Sensor](https://smile.amazon.com/gp/product/B01LXR0B8Q/) | Water leak sensor. |  Reports via Z-Wave when water is detected and also has an audible alarm. <p>I like that it comes with a four foot sensor probe so you can use it in a sump or other awkward location. |
 | [Ecolink Door & Window Sensor](https://smile.amazon.com/dp/B01N5HB4U5/) | Window and Door Sensor. | Uses a magnet to sense if the door or window is open or closed. Pairs with Home Assistant very easily, no trickery needed. Comes with white and brown covers in the box. |
-| [First Alert Z-Wave Smoke Detector & Carbon Monoxide Alarm (2nd Generation)](https://smile.amazon.com/gp/product/B08FFB233Y/) | Smoke and Carbon Monoxide Alarm | There's two versions of this, look for the second generation. It has ZWave+. The older version is ZWave only. Installs in Home Assistant out of the box. Responds very fast to alerts. Runs on two AA batteries. |
+| [First Alert Z-Wave Smoke Detector & Carbon Monoxide Alarm (2nd Generation)](https://smile.amazon.com/gp/product/B08FFB233Y/) | Smoke and Carbon Monoxide Alarm | There's two versions of this, look for the second generation. It has Z-Wave+. The older version is Z-Wave only. Installs in Home Assistant out of the box. Responds very fast to alerts. Runs on two AA batteries. |
 | [GE Enbrighten Plug in Z-Wave Smart Switch](https://smile.amazon.com/gp/product/B004AMB3CI/) | Plug-in Single Outlet with button. ||
 | [GE Enbrighten Z-Wave Plus Smart Motion Light Switch](https://smile.amazon.com/gp/product/B07226MG2T/) | Decora light switch with built-in motion sensor. | Made by Jasco (model 26931). Works very well as a motion sensing light switch. Motion and light switch are reported, but it's built-in light sensing is not. Configurable through the switch or Z-Wave to stay on when turned on, turn off automatically when motion isn't detected, or to turn on when motion is detected and turn off with a timer. This one seems more configurable than other motion switches. Motion is detected at least 25' away. |
 | [GE Enbrighten Z-Wave Plus Smart Motion Sensor](https://smile.amazon.com/dp/B01KQDIU52) | Motion Sensor, battery or USB powered. | Made by Jasco (model 34193). Portable motion sensor whichcan be mounted by screw or tape as well. Can be battery powered (will wait 4 minutes after motion detected to report again), or USB powered (will report immediately without waiting). It's buggy as a battery powered device (thinks it sees motion when it doesn't, and doesn't stop reporting motion sometimes), but works perfectly as a USB powered device. |
@@ -85,8 +87,8 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [GE/Jasco Standard Smart Switch](https://smile.amazon.com/gp/product/B07X6JW72G/) | Wall Switch. 3 Way compatible. | Requires an add-on remote switch to work with 3 way. Supports up to four add-on switches. |
 | [Honeywell T6 Pro Series Thermostat](https://smile.amazon.com/gp/product/B07HFL7R44/) | Mid-range thermostat that works with or without Z-Wave. | Without Z-Wave, you're given full control of the schedule. Lots of options are available through the touch screen as well. When it's connected to a Z-Wave network you can configure it to still allow some scheduling on the thermostat, or to allow full control via Z-Wave. Provides temperature and humidity, and allows a large amount of configuration through Z-Wave as well. |
 | [Invoelli Black Series Dimmer](https://inovelli.com/black-series-dimmer-switch-z-wave/) | Wall Switch. 3 Way compatible. Dimmer. | Mostly like the Red Series, but not as feature rich. Does not require a neutral wire, but using one is strongly recommended. Setup can be a bit tricky on older open-zwave installs. Read Inovelli's documentation closely before adding it to your system since you will most likely need to update the open-zwave device config first. Once its working, this is an amazing switch! |
-| [Inovelli Red Series Fan + Light Switch](https://inovelli.com/red-series-fan-light-switch-z-wave/) | Wall Switch. Allows control of a light and a fan from one switch. | This device is in two parts. One goes in the wall as a normal switch, and one goes into the fan itself. The wall unit talks to the in-fan unit over RF. The fan has low, medium, and high settings. It also has a programming "Breezy" setting where it randomly jumps between fan speeds to simulate wind. Red the install directions closely before adding it to Home Assistant. You might need to update your open-wave device config with the latest version of the XML files, which Inovelli supplies themselves. |
-| [Inovelli Red Series Dimmer](https://smile.amazon.com/gp/product/B07S1BMMGH) | Wall Switch. 3 Way compatible. Dimmer| No Neutral required, but recommended. Depending on zwave integration, may need special setup (https://support.inovelli.com/portal/en/kb/inovelli/switches) Energy Monitoring, Scene Control, RGB Notifications|
+| [Inovelli Red Series Fan + Light Switch](https://inovelli.com/red-series-fan-light-switch-z-wave/) | Wall Switch. Allows control of a light and a fan from one switch. | This device is in two parts. One goes in the wall as a normal switch, and one goes into the fan itself. The wall unit talks to the in-fan unit over RF. The fan has low, medium, and high settings. It also has a programming "Breezy" setting where it randomly jumps between fan speeds to simulate wind. Read the install directions closely before adding it to Home Assistant. You might need to update your open-wave device config with the latest version of the XML files, which Inovelli supplies themselves. |
+| [Inovelli Red Series Dimmer](https://smile.amazon.com/gp/product/B07S1BMMGH) | Wall Switch. 3 Way compatible. Dimmer| No Neutral required, but recommended. Depending on your Z-wave integration, may need special setup (https://support.inovelli.com/portal/en/kb/inovelli/switches) Energy Monitoring, Scene Control, RGB Notifications|
 | [Inovelli Red Series On/Off Switch](https://inovelli.com/red-series-on-off-switch-z-wave/) | Wall Switch. 3 Way compatible. | Requires a neutral. Monitors energy usage, and has a cool LED you can use for notifications. The local relay can be disabled (power is always supplied to the device), making this a great switch to use with smart bulbs. (The buttons can be used a scene controllers in this configuration.) |
 | [Leviton DD00R-DLZ 120VAC 60 Hz Decora Digital/Decora Smart Matching Dimmer Remote](https://smile.amazon.com/gp/product/B01AFU1KOY) | Remote in-wall switch for the [DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U). ||
 | [Leviton DZ6HD-1BZ Dimmer](https://smile.amazon.com/gp/product/B01N4F487U) | Dimmer - 600 Watt incandescent or 300W LED or CFL. Requires a neutral wire. | Periodically (roughly every three to six months) I've run into issues where it locks up with the lights stuck on, but if you trigger the airgap functionality (pull the dimmer lever gently till it clicks and the light on the switch goes out, wait five seconds and push it back into place) it reboots and starts working again. |
