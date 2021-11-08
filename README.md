@@ -11,6 +11,7 @@
   - [Wifi devices](#wifi-devices)
   - [Zigbee](#zigbee)
   - [Z-Wave](#z-wave)
+  - [Ethernet devices](#ethernet-devices)
   - [Non-working devices](#non-working-devices)
   - [Other tools](#other-tools)
 
@@ -114,5 +115,5 @@ This section is for things that you've tried and did not get to work with HA.
 | [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Minuses - <p>The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.<p>Pluses - <p>These ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. |
 
 ## Other tools
-  
+
 If you're using the Inovelli switches, you can experiment with LDE effects using Nathan Fiscus' [notification calculator](https://nathanfiscus.github.io/inovelli-notification-calc/)
