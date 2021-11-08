@@ -11,6 +11,7 @@
   - [Wifi devices](#wifi-devices)
   - [Zigbee](#zigbee)
   - [Z-Wave](#z-wave)
+  - [Ethernet devices](#ethernet-devices)
   - [Non-working devices](#non-working-devices)
   - [Other tools](#other-tools)
 
