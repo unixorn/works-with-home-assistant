@@ -97,6 +97,12 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40 V2.0](https://smile.amazon.com/gp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. Motion reports without timeout since last report. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. Opsnlops has an [example configuration](https://github.com/opsnlops/ha-config/blob/main/binary_sensors.yaml). |
 | [Zooz Z-Wave Plus S2 MultiRelay ZEN16](https://smile.amazon.com/gp/product/B0846DZJD8/) | Dry Contact Relay | Three dry contact relays in one unit. Useful for controlling things like gas fireplaces, or motors. One relay supports 20A, the other two support up to 15A. Installs into HA very easily, and looks like three independent devices. Can be programmed to do things like turn off a relay after X number of minutes / hours as a safety. |
 
+## Ethernet devices
+
+| Name   | Description                                      | Notes           |
+| ------ | ------------------------------------------------ | --------------- |
+| [ControlByWeb automation devices] (https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <li><ul>Completely configurable through its web interface</ul><ul>Can interface with HA via the MODBUS integration (TCP/IP flavor)</ul><ul>Has a dedicated mobile app for IOS and Android</ul><ul>Fully documented MODBUS protocol for each device<ul><ul>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</ul></li> |
+
 
 ## Non-working devices
 
