@@ -10,7 +10,7 @@ Notes suggestions:
 - If the device you're adding in your PR won't work in a local-only mode, please say so in the **Notes** column of your entry.
 - If it requires a remote service, definitely note that - I prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line, or even if your internet is just having an outage.
 - If it tries to phone home - note that too.
-- If you have to reflash a device to get it working with Home Assistant, please add that to the **Notes** column.
+- If you have to reflash a device to get it working with Home Assistant, please add that to the **Notes** column. Ideally add a link to the reflash instructions for the device
 - If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
 - If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
 -->
@@ -19,7 +19,7 @@ Notes suggestions:
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
 - [ ] A link to an external resource like a blog post, video or tutorial
-- [ ] Add/remove a device
+- [ ] Add/remove/update a device entry
 - [ ] Text cleanups/typo fixes
 
 # Copyright Assignment
@@ -33,6 +33,7 @@ Go over all the following points, and put an `x` in all the boxes that apply. Ma
 -->
 
 - [ ] I have confirmed that the link(s) in my PR are valid.
+- [ ] I have signed off my commits. You can use `git commit --amend --no-edit --signoff` to amend an existing commit, and you can find more details about signing off commits on the DCO GitHub action page [here](https://probot.github.io/apps/dco/)
 - [ ] Any links to Amazon are to smile.amazon.com so that people can donate to their designated charity when they buy.
 - [ ] Any links to any online vendors do _not_ include referral codes.
 - [ ] My entries are single lines and are in the appropriate (Hub, Zigbee, Z-Wave, or WIFI) section, and in alphabetical order in their section.
