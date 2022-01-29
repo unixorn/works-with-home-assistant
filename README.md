@@ -25,15 +25,12 @@
 
 ## Introduction
 
-This is a list of devices that work with Home Assistant with minimal aggravation.
+This is a list of devices that work with [Home Assistant](https://www.home-assistant.io/) with minimal aggravation.
 
-If you have to reflash a device to use it with HA, please add that to the **Notes** column.
-
-If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
-
-If it requires the devices connect to an internet server, even just for initial configuration, please add that to **Notes** - I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
-
-If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column.
+- If you have to reflash a device to use it with HA, please add that to the **Notes** column.
+- If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
+- If it requires the devices connect to an internet server, even just for initial configuration, **please add that to the Notes for the device**. I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
+- If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column, preferably with a link to the instructions.
 
 ### Things to think about before choosing between WiFi, Zigbee and Z-Wave
 
@@ -45,7 +42,7 @@ Lutron holds a patent for sending status back to hubs on their RadioRA2 system. 
 
 ### Please list stuff that _doesn't_ work, too
 
-I encourage you to add entries for things that don't work, but try to be very clear in the notes field what part didn't work so people can be warned off and not waste money on devices which won't work with HA.
+I encourage you to add entries for things that don't work. Try to be very clear in the notes field what part didn't work so people can be warned off and not waste money on devices which won't work with HA or that don't support HA for all their features.
 
 ## Hubs
 
@@ -59,7 +56,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through it's web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>The firmware source code is on Github, if you want to audit or modify it.</ul><ul>Also has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
+| [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through its web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>The firmware source code is on Github, if you want to audit or modify it.</ul><ul>Also has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
 
 ## Zigbee
 
@@ -68,7 +65,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. ||
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
 | [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
-| [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | Small cheap smart plug with controllable power switch. | Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same double outlet. |
+| [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. | Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same double outlet. |
 
 ## Z-Wave
 
@@ -103,7 +100,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [ControlByWeb automation devices] (https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <li><ul>Completely configurable through its web interface</ul><ul>Can interface with HA via the MODBUS integration (TCP/IP flavor)</ul><ul>Has a dedicated mobile app for IOS and Android</ul><ul>Fully documented MODBUS protocol for each device<ul><ul>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</ul></li> |
+| [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <li><ul>Completely configurable through its web interface</ul><ul>Can interface with HA via the MODBUS integration (TCP/IP flavor)</ul><ul>Has a dedicated mobile app for IOS and Android</ul><ul>Fully documented MODBUS protocol for each device<ul><ul>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</ul></li> |
 
 
 ## Non-working devices
@@ -112,7 +109,7 @@ This section is for things that you've tried and did not get to work with HA.
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA.<p> Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it.<p>Even when I did manage to add it, it kept falling off of the Zigbee mesh, even though other devices within 10 feet of it are stable. At least it was cheap. |
+| [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA.<p> Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it.<p>Even when I did manage to add it, it kept falling off of the Zigbee mesh, even though other devices within 10 feet of it maintain stable connections. At least it was cheap. |
 | [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Minuses - <p>The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.<p>Pluses - <p>These ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. |
 
 ## Other tools
