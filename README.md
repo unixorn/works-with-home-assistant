@@ -8,18 +8,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [works-with-home-assistant](#works-with-home-assistant)
-  - [Introduction](#introduction)
-    - [Things to think about before choosing between WiFi, Zigbee and Z-Wave](#things-to-think-about-before-choosing-between-wifi-zigbee-and-z-wave)
-    - [A note on dimmers](#a-note-on-dimmers)
-    - [Please list stuff that _doesn't_ work, too](#please-list-stuff-that-_doesnt_-work-too)
-  - [Hubs](#hubs)
-  - [Wifi devices](#wifi-devices)
-  - [Zigbee](#zigbee)
-  - [Z-Wave](#z-wave)
-  - [Ethernet devices](#ethernet-devices)
-  - [Non-working devices](#non-working-devices)
-  - [Other tools](#other-tools)
+- [Introduction](#introduction)
+  - [Things to think about before choosing between WiFi, Zigbee and Z-Wave](#things-to-think-about-before-choosing-between-wifi-zigbee-and-z-wave)
+  - [A note on dimmers](#a-note-on-dimmers)
+  - [Please list stuff that _doesn't_ work, too](#please-list-stuff-that-_doesnt_-work-too)
+- [Hubs](#hubs)
+- [Wifi devices](#wifi-devices)
+- [Zigbee](#zigbee)
+- [Z-Wave](#z-wave)
+- [Ethernet devices](#ethernet-devices)
+- [Non-working / Poorly-working devices](#non-working--poorly-working-devices)
+- [Other tools](#other-tools)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -103,9 +102,9 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <li><ul>Completely configurable through its web interface</ul><ul>Can interface with HA via the MODBUS integration (TCP/IP flavor)</ul><ul>Has a dedicated mobile app for IOS and Android</ul><ul>Fully documented MODBUS protocol for each device<ul><ul>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</ul></li> |
 
 
-## Non-working devices
+## Non-working / Poorly-working devices
 
-This section is for things that you've tried and did not get to work with HA.
+This section is for things that you've tried and did not get to work with HA, or do work but just not well.
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
