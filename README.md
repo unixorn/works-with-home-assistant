@@ -56,6 +56,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
 | [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through its web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>The firmware source code is on Github, if you want to audit or modify it.</ul><ul>Also has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
+| [Sonoff S31](https://smile.amazon.com/gp/product/B07YDC6D4D) 15A Smart Plug | WIFI smart plug that includes energy monitoring. You can fit two of these in a standard US outlet. | The native firmware requires you to use an app to configure it (after creating a cloud account) and was a huge pain in the ass on IOS - I never managed to get my iPhone to detect the plug. Fortunately it can easily be reflashed with Tasmota or ESPHome, which work with HA and don't require a cloud account or phone app to set up. |
 
 ## Zigbee
 
