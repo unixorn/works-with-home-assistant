@@ -115,3 +115,7 @@ This section is for things that you've tried and did not get to work with HA, or
 ## Other tools
 
 If you're using the Inovelli switches, you can experiment with LDE effects using Nathan Fiscus' [notification calculator](https://nathanfiscus.github.io/inovelli-notification-calc/)
+
+## Useful links
+
+- [CloudFree.shop](https://cloudfree.shop/) - Sell a bunch of stuff that's pre-flashed with Tasmota so you know it'll work without any cloud services and won't have the hassle of opening and reflashing devices yourself.
