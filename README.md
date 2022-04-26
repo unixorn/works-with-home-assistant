@@ -19,6 +19,8 @@
 - [Ethernet devices](#ethernet-devices)
 - [Non-working / Poorly-working devices](#non-working--poorly-working-devices)
 - [Other tools](#other-tools)
+- [Useful links](#useful-links)
+  - [Hardware Vendors with Open Firmwares](#hardware-vendors-with-open-firmwares)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -118,4 +120,9 @@ If you're using the Inovelli switches, you can experiment with LDE effects using
 
 ## Useful links
 
-- [CloudFree.shop](https://cloudfree.shop/) - Sell a bunch of stuff that's pre-flashed with Tasmota so you know it'll work without any cloud services and won't have the hassle of opening and reflashing devices yourself.
+### Hardware Vendors with Open Firmwares
+
+Devices from these vendors work without you having to take them apart and reflash them, and because they're open source, you don't have to worry about them turning off a cloud server somewhere and bricking your devices.
+
+- [Athom Tech](https://www.athom.tech/tasmota) - Sells devices preflashed with [Tasmota](https://tasmota.github.io/docs/) or [ESPHome](https://esphome.io/).
+- [CloudFree.shop](https://cloudfree.shop/) - Sell a bunch of stuff that's pre-flashed with [Tasmota](https://tasmota.github.io/docs/).
