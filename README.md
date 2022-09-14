@@ -49,6 +49,7 @@ I encourage you to add entries for things that don't work. Try to be very clear 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
+| [Conbee II](https://smile.amazon.com/gp/product/B07PZ7ZHG5) | USB Zigbee gateway | Works well with [zigbee2mqtt](https://www.zigbee2mqtt.io/) |
 | [GoControl CECOMINOD016164 HUSBZB-1 USB Hub](https://smile.amazon.com/gp/product/B01GJ826F8) | USB device with both Z-Wave and Zigbee radios. ||
 
 ## Wifi devices
