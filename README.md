@@ -37,6 +37,8 @@ This is a list of devices that work with [Home Assistant](https://www.home-assis
 
 Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
 
+On the other hand, Zigbee stuff tends to cost less, and appear less vulnerable to supply chain issues since there are more vendors for the necessary chips.
+
 ### A note on dimmers
 
 Lutron holds a patent for sending status back to hubs on their RadioRA2 system. Not all Z-Wave or Zigbee dimmers license this patent, so some act weird. Leviton is known to license this patent, and their dimmers work well.
@@ -84,7 +86,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [First Alert Z-Wave Smoke Detector & Carbon Monoxide Alarm (2nd Generation)](https://smile.amazon.com/gp/product/B08FFB233Y/) | Smoke and Carbon Monoxide Alarm | There's two versions of this, look for the second generation. It has Z-Wave+. The older version is Z-Wave only. Installs in Home Assistant out of the box. Responds very fast to alerts. Runs on two AA batteries. |
 | [GE Enbrighten Plug in Z-Wave Smart Switch](https://smile.amazon.com/gp/product/B004AMB3CI/) | Plug-in Single Outlet with button. ||
 | [GE Enbrighten Z-Wave Plus Smart Motion Light Switch](https://smile.amazon.com/gp/product/B07226MG2T/) | Decora light switch with built-in motion sensor. | Made by Jasco (model 26931). Works very well as a motion sensing light switch. Motion and light switch are reported, but it's built-in light sensing is not. Configurable through the switch or Z-Wave to stay on when turned on, turn off automatically when motion isn't detected, or to turn on when motion is detected and turn off with a timer. This one seems more configurable than other motion switches. Motion is detected at least 25' away. |
-| [GE Enbrighten Z-Wave Plus Smart Motion Sensor](https://smile.amazon.com/dp/B01KQDIU52) | Motion Sensor, battery or USB powered. | Made by Jasco (model 34193). Portable motion sensor whichcan be mounted by screw or tape as well. Can be battery powered (will wait 4 minutes after motion detected to report again), or USB powered (will report immediately without waiting). It's buggy as a battery powered device (thinks it sees motion when it doesn't, and doesn't stop reporting motion sometimes), but works perfectly as a USB powered device. |
+| [GE Enbrighten Z-Wave Plus Smart Motion Sensor](https://smile.amazon.com/dp/B01KQDIU52) | Motion Sensor, battery or USB powered. | Made by Jasco (model 34193). Portable motion sensor which can be mounted by screw or tape as well. Can be battery powered (will wait 4 minutes after motion detected to report again), or USB powered (will report immediately without waiting). It's buggy as a battery powered device (thinks it sees motion when it doesn't, and doesn't stop reporting motion sometimes), but works perfectly as a USB powered device. |
 | [GE Enbrighten Z-Wave Plus Smart Plug w/2 USB Ports & 2 Outlets](https://smile.amazon.com/gp/product/B0736311QF/) | Plug-in 2 Outlets covering 1 plug. | Made by Jasco. Only covers one plug, and provides two separately controlled plugs along with USB ports. The whole device can be controlled, or each individual power plug can be controlled, and it also has a button for local control. |
 | [GE Enbrighten Z-Wave Plus Smart Plug](https://smile.amazon.com/gp/product/B06W9NWFM3) | Outdoor rated, also works as a range extender. ||
 | [GE/Jasco Decora Smart Switch](https://smile.amazon.com/gp/product/B01M1AHC3R/) | Wall Switch. 3 Way compatible. | Requires an add-on remote switch to work with 3 way. Supports up to four add-on switches. |
@@ -117,7 +119,7 @@ This section is for things that you've tried and did not get to work with HA, or
 
 ## Other tools
 
-If you're using the Inovelli switches, you can experiment with LDE effects using Nathan Fiscus' [notification calculator](https://nathanfiscus.github.io/inovelli-notification-calc/)
+If you're using the Inovelli switches, you can experiment with LDE effects using Nathan Fiscus' [notification calculator](https://nathanfiscus.github.io/inovelli-notification-calc/).
 
 ## Useful links
 
