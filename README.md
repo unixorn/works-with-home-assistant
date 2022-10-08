@@ -105,7 +105,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
-| [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <li><ul>Completely configurable through its web interface</ul><ul>Can interface with HA via the MODBUS integration (TCP/IP flavor)</ul><ul>Has a dedicated mobile app for IOS and Android</ul><ul>Fully documented MODBUS protocol for each device<ul><ul>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</ul></li> |
+| [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <ul><li>Completely configurable through its web interface</li><li>Can interface with HA via the MODBUS integration (TCP/IP flavor)</li><li>Has a dedicated mobile app for IOS and Android</li><li>Fully documented MODBUS protocol for each device</li><li>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</li></ul> |
 
 
 ## Non-working / Poorly-working devices
