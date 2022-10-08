@@ -63,7 +63,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | ------ | ------------------------------------------------ | --------------- |
 | [Amcrest 410 Video Doorbell](https://smile.amazon.com/dp/B091KMT9GB) | Nice little doorbell. It supports RTSP so you can scrape its video feed into your own DVR. | Not directly supported, but if your HA instance is connected to MQTT, you can use [amcrest2mqtt](https://github.com/dchesterton/amcrest2mqtt) to scrape events from it and present them to HA - it even uses the discoverability protocol so that you don't even have to create the entities, they just show up in HA. I did have to use their IOS app to initially configure the doorbell, but after that I was able to watch video with my homelab's [shinobi](https://shinobi.video/) server. |
 | [OpenGarage.io garage door opener/sensor](https://opengarage.io) | Combination garage door opener and sensor | This is very nice piece of hardware. <li><ul>Completely configurable through its web interface</ul><ul>Usable with a [Blynk](https://blynk.io) template for remote control</ul><ul>IFTTT support</ul><ul>Has a dedicated cross-platform app</ul><ul>A well documented [REST api](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)</ul><ul>Can send and receive MQTT messages for ingestion by Home Assistant</ul><ul>The firmware source code is on Github, if you want to audit or modify it.</ul><ul>Also has a configurable audible alarm that can sound before opening or closing the garage door</ul></li> |
-| [Sonoff S31](https://smile.amazon.com/gp/product/B07YDC6D4D) 15A Smart Plug | WIFI smart plug that includes energy monitoring. You can fit two of these in a standard US outlet. | The native firmware requires you to use an app to configure it (after creating a cloud account) and was a huge pain in the ass on IOS - I never managed to get my iPhone to detect the plug. Fortunately it can easily be reflashed with Tasmota or ESPHome, which work with HA and don't require a cloud account or phone app to set up. |
+| [Sonoff S31](https://smile.amazon.com/gp/product/B07YDC6D4D) 15A Smart Plug | WIFI smart plug that includes energy monitoring. You can fit two of these in a standard US outlet. | The native firmware requires you to use an app to configure it (after creating a cloud account) and was a huge pain in the ass on IOS - I never managed to get my iPhone to detect the plug. Fortunately it can easily be reflashed with [Tasmota](https://tasmota.github.io) or [ESPHome](https://esphome.io), which both work with HA and don't require a cloud account or phone app to set up. |
 
 ## Zigbee
 
@@ -129,7 +129,7 @@ If you're using the Inovelli switches, you can experiment with LDE effects using
 Devices from these vendors work without you having to take them apart and reflash them, and because they're open source, you don't have to worry about them turning off a cloud server somewhere and bricking your devices.
 
 - [Athom Tech](https://www.athom.tech/tasmota) - Sells devices preflashed with [Tasmota](https://tasmota.github.io/docs/) or [ESPHome](https://esphome.io/).
-- [CloudFree.shop](https://cloudfree.shop/) - Sell a bunch of stuff that's pre-flashed with [Tasmota](https://tasmota.github.io/docs/).
+- [CloudFree.shop](https://cloudfree.shop/) - Sells devices that are pre-flashed with [Tasmota](https://tasmota.github.io/docs/).
 
 ### How-tos & Tutorials
 
