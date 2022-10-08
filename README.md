@@ -21,6 +21,7 @@
 - [Other tools](#other-tools)
 - [Useful links](#useful-links)
   - [Hardware Vendors with Open Firmwares](#hardware-vendors-with-open-firmwares)
+  - [How-tos & Tutorials](#how-tos--tutorials)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -129,3 +130,7 @@ Devices from these vendors work without you having to take them apart and reflas
 
 - [Athom Tech](https://www.athom.tech/tasmota) - Sells devices preflashed with [Tasmota](https://tasmota.github.io/docs/) or [ESPHome](https://esphome.io/).
 - [CloudFree.shop](https://cloudfree.shop/) - Sell a bunch of stuff that's pre-flashed with [Tasmota](https://tasmota.github.io/docs/).
+
+### How-tos & Tutorials
+
+- [Using PagerDuty with Home Assistant](https://unixorn.github.io/post/use-pagerduty-with-home-assistant/) - Easily set up Home Assistant so you can send alerts with [PagerDuty](https://www.pagerduty.com/).
