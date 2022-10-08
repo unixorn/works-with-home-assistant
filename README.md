@@ -12,11 +12,11 @@
   - [Things to think about before choosing between WiFi, Zigbee and Z-Wave](#things-to-think-about-before-choosing-between-wifi-zigbee-and-z-wave)
   - [A note on dimmers](#a-note-on-dimmers)
   - [Please list stuff that _doesn't_ work, too](#please-list-stuff-that-_doesnt_-work-too)
+- [Ethernet devices](#ethernet-devices)
 - [Hubs](#hubs)
 - [Wifi devices](#wifi-devices)
 - [Zigbee](#zigbee)
 - [Z-Wave](#z-wave)
-- [Ethernet devices](#ethernet-devices)
 - [Non-working / Poorly-working devices](#non-working--poorly-working-devices)
 - [Other tools](#other-tools)
 - [Useful links](#useful-links)
@@ -46,7 +46,13 @@ Lutron holds a patent for sending status back to hubs on their RadioRA2 system. 
 
 ### Please list stuff that _doesn't_ work, too
 
-I encourage you to add entries for things that don't work. Try to be very clear in the notes field what part didn't work so people can be warned off and not waste money on devices which won't work with HA or that don't support HA for all their features.
+I encourage you to add entries for things that don't work, don't work well, or were just hard to integrate with HA. Try to be very clear in the notes field what issues you encountered so people can be warned off and not waste money on devices which won't work with HA or that don't support HA for all their features.
+
+## Ethernet devices
+
+| Name   | Description                                      | Notes           |
+| ------ | ------------------------------------------------ | --------------- |
+| [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <ul><li>Completely configurable through its web interface</li><li>Can interface with HA via the MODBUS integration (TCP/IP flavor)</li><li>Has a dedicated mobile app for IOS and Android</li><li>Fully documented MODBUS protocol for each device</li><li>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</li></ul> |
 
 ## Hubs
 
@@ -101,16 +107,10 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [ZOOZ Z-Wave Plus 4-in-1 Sensor ZSE40 V2.0](https://smile.amazon.com/gp/product/B01AKSO80O/) | Motion, light, temperature, and humidity sensor. | Quirky little device. It measures light on a scale of 0-100%, and not lux. Motion reports without timeout since last report. It requires a [templated `binary_sensor`](https://www.home-assistant.io/docs/z-wave/entities/#burglar-entity) to make the burglar sensor work as a motion sensor in Home Assistant. Opsnlops has an [example configuration](https://github.com/opsnlops/ha-config/blob/main/binary_sensors.yaml). |
 | [Zooz Z-Wave Plus S2 MultiRelay ZEN16](https://smile.amazon.com/gp/product/B0846DZJD8/) | Dry Contact Relay | Three dry contact relays in one unit. Useful for controlling things like gas fireplaces, or motors. One relay supports 20A, the other two support up to 15A. Installs into HA very easily, and looks like three independent devices. Can be programmed to do things like turn off a relay after X number of minutes / hours as a safety. |
 
-## Ethernet devices
-
-| Name   | Description                                      | Notes           |
-| ------ | ------------------------------------------------ | --------------- |
-| [ControlByWeb automation devices](https://www.controlbyweb.com) | Full line of ethernet connected components for data acquisition + relay control | These are industrial-quality complete pieces of hardware, no assembly required. <ul><li>Completely configurable through its web interface</li><li>Can interface with HA via the MODBUS integration (TCP/IP flavor)</li><li>Has a dedicated mobile app for IOS and Android</li><li>Fully documented MODBUS protocol for each device</li><li>Can operate standalone (independently of HA) monitoring/controlling any process, alert of specific conditions via email, and save logs to FTP</li></ul> |
-
 
 ## Non-working / Poorly-working devices
 
-This section is for things that you've tried and did not get to work with HA, or do work but just not well.
+This section is for things that you've tried and did not get to work with HA, or do work but just not well. Please be specific about what problems you had.
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
