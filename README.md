@@ -79,6 +79,7 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
 | [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
 | [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. | Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same double outlet. |
+| [Third Reality 3RMS16BZ Motion Sensor](https://smile.amazon.com/dp/B08RRRWK6B) | Motion Sensor | Recognized by zigbee2mqtt. |
 
 ## Z-Wave
 
