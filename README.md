@@ -18,7 +18,7 @@
 - [Zigbee](#zigbee)
 - [Z-Wave](#z-wave)
 - [Non-working / Poorly-working devices](#non-working--poorly-working-devices)
-- [Other tools](#other-tools)
+- [Tools & Utilities](#tools--utilities)
 - [Useful links](#useful-links)
   - [Hardware Vendors with Open Firmwares](#hardware-vendors-with-open-firmwares)
   - [How-tos & Tutorials](#how-tos--tutorials)
@@ -119,9 +119,12 @@ This section is for things that you've tried and did not get to work with HA, or
 | [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Minuses - <p>The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.<p>Pluses - <p>These ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. |
 | [Amysen RGBW Bulbs](https://smile.amazon.com/gp/product/B07S2487N8/) | Fairly cheap RGBW LED bulbs | These wifi smart bulbs work with Home Assistant with very little issue, however of the 10 or so I purchased over the span of about 3 months, only 3 remain in service. All the failed ones developed a driver whine (screech, really) within a short handful of months time. |
 
-## Other tools
+## Tools & Utilities
 
-If you're using the Inovelli switches, you can experiment with LDE effects using Nathan Fiscus' [notification calculator](https://nathanfiscus.github.io/inovelli-notification-calc/).
+| Name   | Description                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------ |
+| [Home Assistant Postgresql Backup](https://github.com/unixorn/hass-postgresql-backup)| A simple tool for backing up your HAss database if you're using postgres. |
+| [Inovelli Notification Calculator](https://nathanfiscus.github.io/inovelli-notification-calc/)| Helps you experiment with LDE effects on Inovelli switches. |
 
 ## Useful links
 
