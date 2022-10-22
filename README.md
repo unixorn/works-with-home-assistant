@@ -115,9 +115,9 @@ This section is for things that you've tried and did not get to work with HA, or
 
 | Name   | Description                                      | Notes           |
 | ------ | ------------------------------------------------ | --------------- |
+| [Amysen RGBW Bulbs](https://smile.amazon.com/gp/product/B07S2487N8/) | Fairly cheap RGBW LED bulbs | These wifi smart bulbs work with Home Assistant with very little issue, however of the 10 or so I purchased over the span of about 3 months, only 3 remain in service. All the failed ones developed a driver whine (screech, really) within a short handful of months time. |
 | [Aqara Vibration Sensor](https://smile.amazon.com/gp/product/B07PJT939B) | Mini glass break detector | This was a pita to add to my HA.<p> Once your HA is scanning for new devices, press and hold the button on the sensor for ~5 seconds until the lights flash, then you have to press it again (but don't hold it, press and release) every second or two until HA finds it.<p>Even when I did manage to add it, it kept falling off of the Zigbee mesh, even though other devices within 10 feet of it maintain stable connections. At least it was cheap. |
 | [Aqara Water Leak Sensor](https://smile.amazon.com/gp/product/B07D39MSZS) | Water leak detector | Minuses - <p>The manual was unclear on how to put it in pairing mode - press the water droplet icon firmly until the hidden light flashes three times, then let go.<p>After two months of usage I don't recommend it - it drops out of my Zigbee mesh a lot, even though it's five feet from a Smartthings motion detector that has no problems.<p>Pluses - <p>These ship ready to go - no messing with the battery, just press the button and you can add it to your Zigbee mesh. |
-| [Amysen RGBW Bulbs](https://smile.amazon.com/gp/product/B07S2487N8/) | Fairly cheap RGBW LED bulbs | These wifi smart bulbs work with Home Assistant with very little issue, however of the 10 or so I purchased over the span of about 3 months, only 3 remain in service. All the failed ones developed a driver whine (screech, really) within a short handful of months time. |
 
 ## Tools & Utilities
 
