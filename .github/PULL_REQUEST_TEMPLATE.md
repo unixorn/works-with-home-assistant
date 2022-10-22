@@ -32,12 +32,12 @@ Notes suggestions:
 Go over all the following points, and put an `x` in all the boxes that apply. Make them look like [x] so that GitHub's markdown renderer renders them properly.
 -->
 
-- [ ] **I have personally used the device(s) being added.**
-- [ ] **If this device requires an internet server to operate or be configured, it is noted in the entry.** Let people know that it will brick if the company shuts down like Insteon did.
+- [ ] **I have personally used the device(s), tools or utilities being added.**
+- [ ] **If this device requires an internet server to operate or be configured, it is noted in the entry.** Warn people that it could brick if the company shuts down like Insteon did.
 - [ ] I have read the [Contributing](https://github.com/unixorn/works-with-home-assistant/blob/master/Contributing.md) document.
 - [ ] I have signed off my commits. You can use `git commit --amend --no-edit --signoff` to amend an existing commit, and you can find more details about signing off your commits on the DCO GitHub action page [here](https://probot.github.io/apps/dco/)
 - [ ] All new and existing tests passed.
 - [ ] I have confirmed that the link(s) in my PR are valid.
 - [ ] Any links to Amazon are to smile.amazon.com so that people can automatically donate to their designated charity when they buy using the link.
-- [ ] Any links to any online vendors do _not_ include referral codes.
-- [ ] Entries are single lines and are in the appropriate (Hub, Zigbee, Z-Wave, or WIFI) section, and in alphabetical order in their section.
+- [ ] Any links to any online vendors do _not_ include referral codes or embedded tracking codes.
+- [ ] Entries are single lines and are in the appropriate (Hub, Zigbee, Z-Wave, Tools or WIFI) section, and in alphabetical order in their section.
