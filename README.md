@@ -27,12 +27,13 @@
 
 ## Introduction
 
-This is a list of devices that work with [Home Assistant](https://www.home-assistant.io/) with minimal aggravation.
+This is a list of devices and software that work with [Home Assistant](https://www.home-assistant.io/) with minimal aggravation.
 
 - If you have to reflash a device to use it with HA, please add that to the **Notes** column.
 - If you need to add a plugin to Home Assistant before it can be used, add that to **Notes** too.
 - If it requires the devices connect to an internet server, even just for initial configuration, **please add that to the Notes for the device**. I want it easy to see which devices won't brick if the vendor goes out of business and also aren't vulnerable to some jackass hacking the company's servers.
 - If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column, preferably with a link to the instructions.
+- Please also add entries for tools, tutorials and utilities. Things like zigbee2mqtt, Node Red, and other software you can run that interact with or supplement Home Assistant's functionality definitely belong in this list.
 
 ### Things to think about before choosing between WiFi, Zigbee and Z-Wave
 
