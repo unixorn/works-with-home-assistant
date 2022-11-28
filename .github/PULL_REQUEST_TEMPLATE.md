@@ -33,7 +33,7 @@ Go over all the following points, and put an `x` in all the boxes that apply. Ma
 -->
 
 - [ ] **I have personally used the device(s), tools or utilities being added.**
-- [ ] **If this device requires an internet server to operate or be configured, it is noted in the entry.** Warn people that it could brick if the company shuts down like Insteon did.
+- [ ] **If this device, tool or utility requires an internet server to operate or be configured, it is noted in the entry.** Warn people that it could brick if the company shuts down like Insteon did.
 - [ ] I have read the [Contributing](https://github.com/unixorn/works-with-home-assistant/blob/master/Contributing.md) document.
 - [ ] I have signed off my commits. You can use `git commit --amend --no-edit --signoff` to amend an existing commit, and you can find more details about signing off your commits on the DCO GitHub action page [here](https://probot.github.io/apps/dco/)
 - [ ] All new and existing tests passed.
