@@ -77,16 +77,16 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | ------ | ------------------------------------------------ | --------------- |
 | [GE 45856GE Zigbee Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | In-wall switch. | Requires a neutral wire. |
 | [Ikea TRADFRI remote control](https://manuals.plus/ikea/004-431-30-tr%C3%A5dfri-remote-control-manual#axzz7kd0rP732) | Five button remote control | Discontinued. Ikea product number 004.431.30.  Recognized by ZHA.  Does not report battery percentage. |
-| [Innr AE 260 Smart Bulb](https://smile.amazon.com/gp/product/B07SC4CJ7H/) | Warm bulb | Recognized by ZHA.  Nice "warm" color. |
-| [Konke 3AFE280100510001 Smart Button](https://www.aliexpress.us/item/2255801129361942.html) | Smart button | Recognized by ZHA |
+| [Innr Smart Bulb (Model AE 260)](https://smile.amazon.com/gp/product/B07SC4CJ7H/) | Warm bulb | Recognized by ZHA.  Nice "warm" color. |
+| [Konke Smart Button (Model 3AFE280100510001)](https://www.aliexpress.us/item/2255801129361942.html) | Smart button | Recognized by ZHA |
 | [Samsung SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. ||
 | [Samsung SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. ||
 | [Securifi Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. | Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same standard double US outlet. |
 | [Sonoff S31 Lite zb](https://sonoff.tech/product/smart-plugs/s31-lite-zb/) | Smart Outlet/Plug | Recognized by ZHA. Does not report energy usage. The LEDs are way too bright and cannot be adjusted AFAIK. |
-| [Third Reality 3RMS16BZ Motion Sensor](https://smile.amazon.com/dp/B08RRRWK6B) | Motion Sensor | Recognized by zigbee2mqtt. |
-| [Tuya Earkong TS0203 Door/Window sensor](https://www.aliexpress.us/item/3256802953712505.html) | Door/Window Sensor | Recognized by ZHA. |
-| [Tuya TS004F Rotary Dimmer](https://www.aliexpress.us/item/3256802832125833.html) | Rotary dimmer button | Recognized by ZHA. "Works" but kinda annoying b/c dimming up/down is a frustrating experience |
-| [eWeLight ZB-CL01 RGB Bulb](https://smile.amazon.com/gp/product/B08QC9P49G/) | RGB bulb | Recognized by ZHA.  "Warm" color isn't really warm enough IMO.  Multi-color stuff is fine. |
+| [Third Reality Motion Sensor (Model 3RMS16BZ)](https://smile.amazon.com/dp/B08RRRWK6B) | Motion Sensor | Recognized by zigbee2mqtt. |
+| [Tuya Earkong Door/Window sensor (Model TS0203)](https://www.aliexpress.us/item/3256802953712505.html) | Door/Window Sensor | Recognized by ZHA. |
+| [Tuya Rotary Dimmer (Model TS004F)](https://www.aliexpress.us/item/3256802832125833.html) | Rotary dimmer button | Recognized by ZHA. "Works" but kinda annoying b/c dimming up/down is a frustrating experience |
+| [eWeLight RGB Bulb (Model ZB-CL01)](https://smile.amazon.com/gp/product/B08QC9P49G/) | RGB bulb | Recognized by ZHA.  "Warm" color isn't really warm enough IMO.  Multi-color stuff is fine. |
 
 ## Z-Wave
 
