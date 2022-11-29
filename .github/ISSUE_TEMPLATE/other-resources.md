@@ -8,3 +8,5 @@ assignees: ''
 ---
 
 Please include a link to the resource you'd like added, along with a brief (1 paragraph is fine) description.
+
+This is for stuff like links to services you can run that will interact with your Home Assistant like zigbee2mqtt, links to tutorials, basically useful information that isn't hardware.
