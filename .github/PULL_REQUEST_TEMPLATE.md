@@ -3,6 +3,8 @@
 
 # Description
 
+Please name items in `BRAND TYPE (Model XYZZY)` format to make the sorts consistent and useful - it's nicer to see all the smart buttons of a given brand sorted together.
+
 <!---
 Notes suggestions:
 
