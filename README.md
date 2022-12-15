@@ -34,11 +34,17 @@ This is a list of devices and software that work with [Home Assistant](https://w
 - If the device can be reflashed to make it independent of internet servers, please add that to that entry's notes column, preferably with a link to the instructions.
 - Please also add entries for tools, tutorials and utilities. Things like zigbee2mqtt, Node Red, and other software you can run that interact with or supplement Home Assistant's functionality definitely belong in this list.
 
+Finally, if this list is useful to you, please star it to help it appear early in search results for other people.
+
 ### Things to think about before choosing between WiFi, Zigbee and Z-Wave
 
-Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but Zigbee can interfere with 2.4GHz WIFI, Z-Wave doesn't. And since a lot of WIFI IOT gear seems to only work on 2.4GHz, you may want to go Z-Wave if you're just starting to buy equipment.
+Read [Zigbee and WIFI Cooexistence](https://www.metageek.com/training/resources/zigbee-wifi-coexistence.html) on Metageek for more details, but the TL;DR is that Zigbee channels can overlap 2.4 GHz WIFI channels, and potentially cause odd and intermittent network issues for both.
 
-On the other hand, Zigbee stuff tends to cost less, and appear less vulnerable to supply chain issues since there are more vendors for the necessary chips.
+Z-Wave works on 908 MHz in the US and 868 MHz in Europe, so it doesn't have interference issues with WIFI or Bluetooth, but the devices tend to be more expensive.
+
+On the other hand, Zigbee devices tend to cost less, and appear less vulnerable to supply chain issues since there are more vendors for the necessary chips.
+
+Most WIFI IOT gear seems to only work with 2.4 GHz, so you may want to upgrade your WIFI base station and router before adding too many devices, and also so you can have a separate walled off WIFI network for the IOT devices.
 
 ### A note on dimmers
 
