@@ -11,6 +11,8 @@ assignees: ''
 
 A clear and concise description of what the device is. Please include a link to a vendor for it (without referral codes).
 
+It is ok to add more than one device to the issue.
+
 ## Have you personally used the new entry with Home Assistant?
 
 
