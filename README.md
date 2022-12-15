@@ -87,7 +87,8 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | Smart Bulb | eWeLight | [Model ZB-CL01 Smart Bulb](https://smile.amazon.com/gp/product/B08QC9P49G/) | RGB bulb, recognized by ZHA.  "Warm" color isn't really warm enough IMO.  Multi-color stuff is fine. |
 | Smart Plug | Securifi | [Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same standard double US outlet. |
 | Smart Plug | Sonoff | [S31 Lite zb](https://sonoff.tech/product/smart-plugs/s31-lite-zb/) | Smart Outlet/Plug, recognized by ZHA. Does not report energy usage. The LEDs are way too bright and cannot be adjusted AFAIK. |
-| Smart Switch (In wall) | GE | [45856GE Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | Requires a neutral wire |
+| Smart Power Strip (UK) | Xenon | [Xenon Smart Power Strip](https://smile.amazon.co.uk/gp/product/B09B3PZK5P) | 4 individually controllable AC sockets + 2 USB sockets that are controlled together. |
+| Smart Switch (In wall) | GE | [45856GE Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | Requires a neutral wire. |
 
 ## Z-Wave
 
