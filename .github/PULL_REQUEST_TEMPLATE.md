@@ -3,12 +3,14 @@
 
 # Description
 
+<!---
 Please name items in `BRAND TYPE (Model XYZZY)` format to make the sorts consistent and useful - it's nicer to see all the smart buttons of a given brand sorted together.
 
 Please format Zigbee, Z-Wave and WIFI entries as
 ```
 | Type | Brand | Model-link | Notes |
 ```
+--->
 
 This way all the switches will sort together, sensors together, etc.
 
