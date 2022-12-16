@@ -82,19 +82,29 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | Type           | Brand       | Name             | Notes                                 |
 | -------------- | ----------- | ---------------- | ------------------------------------- |
 | Dimmer Switch | Tuya | [Rotary Dimmer (Model TS004F)](https://www.aliexpress.us/item/3256802832125833.html) | Rotary dimmer button, recognized by ZHA. "Works" but kinda annoying because dimming up/down is a frustrating experience |
+| Energy Monitor | Frient | [Frient Electricity Meter Interface](https://smile.amazon.co.uk/gp/product/B08WXT6HHJ/) | HA records energy usage over time. Recognised by zigbee2mqtt, connects to led on electricity meter. |
+| Heat Alarm | Frient | [Frient Intelligent Heat Alarm](https://smile.amazon.co.uk/gp/product/B08WXT12BN/) | Recognised by zigbee2mqtt, also measures Temperature |
 | Remote Control (Button) | Konke | [Smart Button (Model 3AFE280100510001)](https://www.aliexpress.us/item/2255801129361942.html) | Smart button, recognized by ZHA |
 | Remote Control (Button) | Third Reality | [Smart Button (Model 3RSB22BZ)](https://smile.amazon.com/dp/B0BJDVKRZL) | Button, works with zigbee2mqtt. Exposes `single` click, `release` and `hold` states to HA for use as triggers. Came with a couple of strips of magnetic tape to make it easier to mount somewhere without getting lost. |
 | Remote Control | Ikea | [TRADFRI remote control](https://manuals.plus/ikea/004-431-30-tr%C3%A5dfri-remote-control-manual#axzz7kd0rP732) | Five button remote control. Discontinued. Ikea product number 004.431.30.  Recognized by ZHA. Does not report battery percentage. |
+| Sensor (Air quality) | Frient | [Frient Air Quality Sensor](https://smile.amazon.co.uk/gp/product/B08WXT6166/) | Measures VOC, Humidity and Temperature, recognised by zigbee2mqtt |
+| Sensor (Door/Window) | Sonoff | [SONOFF SNZB-04 ZigBee Wireless Door Window Sensor](https://smile.amazon.co.uk/gp/product/B08BCHCZP2/) | Door/Window sensor, recognised by zigbee2mqtt |
 | Sensor (Door/Window) | Tuya | [Earkong Door/Window sensor (Model TS0203)](https://www.aliexpress.us/item/3256802953712505.html) | Door/Window Sensor recognized by ZHA. |
 | Sensor (Motion) | Samsung | [SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. |
+| Sensor (Motion) | Sonoff | [SONOFF SNZB-03 ZigBee Motion Sensor](https://smile.amazon.co.uk/gp/product/B08XB3YPRS/) | Detects motion, recognised by zigbee2mqtt |
 | Sensor (Motion) | Third Reality | [Third Reality Motion Sensor (Model 3RMS16BZ)](https://smile.amazon.com/dp/B08RRRWK6B) | Recognized by zigbee2mqtt. |
+| Sensor (Temperature) | Sonoff | [SONOFF SNZB-02 ZigBee Temperature Humidity Sensor](https://smile.amazon.co.uk/gp/product/B08BFW697F/) | Measures Temperature & Humidity, recognised by zigbee2mqtt | 
 | Sensor (Water) | Samsung | [SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. |
 | Smart Bulb | Innr | [Smart Bulb (Model AE 260)](https://smile.amazon.com/gp/product/B07SC4CJ7H/) | Warm bulb, recognized by ZHA.  Nice "warm" color. |
 | Smart Bulb | eWeLight | [Model ZB-CL01 Smart Bulb](https://smile.amazon.com/gp/product/B08QC9P49G/) | RGB bulb, recognized by ZHA.  "Warm" color isn't really warm enough IMO.  Multi-color stuff is fine. |
+| Smart Bulb (UK) | Raveza | [Zigbee Smart Bulb B22 Bayonet](https://smile.amazon.co.uk/gp/product/B09QSPW7DD/) | RGB Bulb, B22 Bayonet, 4.5W UK | 
+| Smart Bulb (UK) | Xuelili | [Zigbee Smart Bulb E27](https://smile.amazon.co.uk/gp/product/B09NSH7JR4/) | RGB Bulb with E27 screw, 10W 220V UK |
 | Smart Plug | Securifi | [Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same standard double US outlet. |
 | Smart Plug | Sonoff | [S31 Lite zb](https://sonoff.tech/product/smart-plugs/s31-lite-zb/) | Smart Outlet/Plug, recognized by ZHA. Does not report energy usage. The LEDs are way too bright and cannot be adjusted AFAIK. |
+| Smart Plug (UK) | Woolley | [Woolley Zigbee Smart Plug](https://smile.amazon.co.uk/gp/product/B09W2FVLSH/) | 10A/2200W UK AC socket, recognised by zigbee2mqtt |
 | Smart Power Strip (UK) | Xenon | [Xenon Smart Power Strip](https://smile.amazon.co.uk/gp/product/B09B3PZK5P) | 4 individually controllable AC sockets + 2 USB sockets that are controlled together. |
 | Smart Switch (In wall) | GE | [45856GE Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | Requires a neutral wire. |
+| Smoke Alarm | Frient | [Frient Intelligent Smoke Alarm](https://smile.amazon.co.uk/gp/product/B08WXV3G8P/r) | Recognised by zigbee2mqtt, also measures Temperature |
 
 ## Z-Wave
 
