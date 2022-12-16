@@ -21,6 +21,7 @@
 - [Useful links](#useful-links)
   - [Hardware Vendors with Open Firmwares](#hardware-vendors-with-open-firmwares)
   - [How-tos & Tutorials](#how-tos--tutorials)
+  - [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -93,15 +94,15 @@ If items here need reflashing to work with Home Assistant, please state that in 
 | Sensor (Motion) | Samsung | [SmartThings Motion Sensor](https://smile.amazon.com/gp/product/B01IE35PCC) | Detects temperature and motion. |
 | Sensor (Motion) | Sonoff | [SONOFF SNZB-03 ZigBee Motion Sensor](https://smile.amazon.co.uk/gp/product/B08XB3YPRS/) | Detects motion, recognised by zigbee2mqtt |
 | Sensor (Motion) | Third Reality | [Third Reality Motion Sensor (Model 3RMS16BZ)](https://smile.amazon.com/dp/B08RRRWK6B) | Recognized by zigbee2mqtt. |
-| Sensor (Temperature) | Sonoff | [SONOFF SNZB-02 ZigBee Temperature Humidity Sensor](https://smile.amazon.co.uk/gp/product/B08BFW697F/) | Measures Temperature & Humidity, recognised by zigbee2mqtt | 
+| Sensor (Temperature) | Sonoff | [SONOFF SNZB-02 ZigBee Temperature Humidity Sensor](https://smile.amazon.co.uk/gp/product/B08BFW697F/) | Measures Temperature & Humidity, recognised by zigbee2mqtt |
 | Sensor (Water) | Samsung | [SmartThings Water Sensor](https://smile.amazon.com/gp/product/B07F951JDP) | A cheap small water sensor. Reports wet/dry status for the zone. |
+| Smart Bulb (UK) | Raveza | [Zigbee Smart Bulb B22 Bayonet](https://smile.amazon.co.uk/gp/product/B09QSPW7DD/) | RGB Bulb, B22 Bayonet, 4.5W UK |
+| Smart Bulb (UK) | Xuelili | [Zigbee Smart Bulb E27](https://smile.amazon.co.uk/gp/product/B09NSH7JR4/) | RGB Bulb with E27 screw, 10W 220V UK |
 | Smart Bulb | Innr | [Smart Bulb (Model AE 260)](https://smile.amazon.com/gp/product/B07SC4CJ7H/) | Warm bulb, recognized by ZHA.  Nice "warm" color. |
 | Smart Bulb | eWeLight | [Model ZB-CL01 Smart Bulb](https://smile.amazon.com/gp/product/B08QC9P49G/) | RGB bulb, recognized by ZHA.  "Warm" color isn't really warm enough IMO.  Multi-color stuff is fine. |
-| Smart Bulb (UK) | Raveza | [Zigbee Smart Bulb B22 Bayonet](https://smile.amazon.co.uk/gp/product/B09QSPW7DD/) | RGB Bulb, B22 Bayonet, 4.5W UK | 
-| Smart Bulb (UK) | Xuelili | [Zigbee Smart Bulb E27](https://smile.amazon.co.uk/gp/product/B09NSH7JR4/) | RGB Bulb with E27 screw, 10W 220V UK |
+| Smart Plug (UK) | Woolley | [Woolley Zigbee Smart Plug](https://smile.amazon.co.uk/gp/product/B09W2FVLSH/) | 10A/2200W UK AC socket, recognised by zigbee2mqtt |
 | Smart Plug | Securifi | [Peanut Smart Plug](https://smile.amazon.com/gp/product/B00TC9NC82) | A small cheap smart plug with controllable power switch. Reliable cheap smart plug. Claims to also monitor the energy consumption of the plugged-in device, but monitoring doesn't work. These are just big enough that you can't put two of them on the same standard double US outlet. |
 | Smart Plug | Sonoff | [S31 Lite zb](https://sonoff.tech/product/smart-plugs/s31-lite-zb/) | Smart Outlet/Plug, recognized by ZHA. Does not report energy usage. The LEDs are way too bright and cannot be adjusted AFAIK. |
-| Smart Plug (UK) | Woolley | [Woolley Zigbee Smart Plug](https://smile.amazon.co.uk/gp/product/B09W2FVLSH/) | 10A/2200W UK AC socket, recognised by zigbee2mqtt |
 | Smart Power Strip (UK) | Xenon | [Xenon Smart Power Strip](https://smile.amazon.co.uk/gp/product/B09B3PZK5P) | 4 individually controllable AC sockets + 2 USB sockets that are controlled together. |
 | Smart Switch (In wall) | GE | [45856GE Smart Switch In-Wall Lighting Control](https://smile.amazon.com/gp/product/B019HTH2A0/) | Requires a neutral wire. |
 | Smoke Alarm | Frient | [Frient Intelligent Smoke Alarm](https://smile.amazon.co.uk/gp/product/B08WXV3G8P/r) | Recognised by zigbee2mqtt, also measures Temperature |
@@ -168,3 +169,13 @@ Devices from these vendors work without you having to take them apart and reflas
 ### How-tos & Tutorials
 
 - [Using PagerDuty with Home Assistant](https://unixorn.github.io/post/use-pagerduty-with-home-assistant/) - Easily set up Home Assistant so you can send alerts with [PagerDuty](https://www.pagerduty.com/).
+
+### Thanks
+
+Many thanks to all the contributors. The list wouldn't be nearly as complete without all your help.
+
+<a href="https://github.com/unixorn/works-with-home-assistant/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=unixorn/works-with-home-assistant" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
