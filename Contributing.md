@@ -10,8 +10,8 @@ You can add entries for things that _don't_ work - just be clear why they didn't
 
 - Entries should be clear, concise, and non-promotional.
 - Please only make entries for devices you have _personally_ used. You can't say something works well if you haven't worked with it yourself.
-- Please include a link to purchase each addition to the list, but don't include referral codes in the links. However, please _do_ use smile.amazon.com for any Amazon links so people can contribute easily to their preferred charities when they buy.
-- Amazon links should be in the form https://smile.amazon.com/gp/product/XYZZY/
+- Please include a link to purchase each addition to the list, but don't include referral codes in the links.
+- Amazon links should be in the form https://amazon.com/gp/product/XYZZY/
 - If the item needs to be reflashed with Tasmota, ESPHome or something else before it is usable with Home Assistant, make sure to put that in the **Notes** column.
 - If the device you're adding won't work in a local-only mode, please say so in the **Notes** column of your entry.
 - If it requires a remote service, definitely note that - A lot of people prefer to not buy anything that will brick if the vendor goes out of business or decides to cancel the product line.
