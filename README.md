@@ -21,7 +21,7 @@
 - [Useful links](#useful-links)
   - [Hardware Vendors with Open Firmwares](#hardware-vendors-with-open-firmwares)
   - [How-tos & Tutorials](#how-tos--tutorials)
-  - [Thanks](#thanks)
+- [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -170,7 +170,7 @@ Devices from these vendors work without you having to take them apart and reflas
 
 - [Using PagerDuty with Home Assistant](https://unixorn.github.io/post/use-pagerduty-with-home-assistant/) - Easily set up Home Assistant so you can send alerts with [PagerDuty](https://www.pagerduty.com/).
 
-### Thanks
+## Thanks
 
 Many thanks to all the contributors. The list wouldn't be nearly as complete without all your help.
 
